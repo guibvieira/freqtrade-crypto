@@ -94,3 +94,6 @@ target/
 
 #exceptions
 !*.gitkeep
+
+#data stuff:
+user_data/data/

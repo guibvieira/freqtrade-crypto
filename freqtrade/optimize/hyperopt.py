@@ -379,7 +379,7 @@ class Hyperopt:
             return
 
         try:
-            io.open(csv_file, 'w+').close()
+            io.open(csv_file, 'a+').close()
         except IOError:
             logger.error(f"Failed to create CSV file: {csv_file}")
             return
